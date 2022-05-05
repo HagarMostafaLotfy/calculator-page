@@ -1,0 +1,213 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba (0,100,0,0.5) 50%);
+background-position: center;
+background-size: cover;
+height: 20vh;
+}
+
+.navbar{
+width: 1350px;
+height: 75px;
+margin: auto;
+background-color:blue;
+}
+.today{
+ text-align: center;
+ padding-left: 1120px;
+ color: #fff;
+} 
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+    font-size: large;
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 200px;
+}
+ ul li{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27PX;
+     font-size: 26px;
+ }
+ ul li a:hover{
+     color:red;
+ }
+.container{
+    margin: auto;
+    background-color:rgb(159, 206, 233);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#003366;
+    font-size:36px;
+    font-weight:bold;
+    padding: 30px;
+    margin: 40px;
+    text-align:start;
+   margin-bottom:  0px;
+}
+.calc{
+    height: 370px;
+    background: #3d4544;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#answer{
+    background: #bccd95;
+    width: 370px;
+    height: 80px;
+    color: #000;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    letter-spacing: 1px;
+}
+input{
+    font-size: 30px;
+    width: 65px;
+    height: 55px ;
+    color: #fff;
+    background: #6f6f6f;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+    border: 0px solid;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+ .btn-red{
+     background-color: red;
+ }
+ .btn-blue{
+     background-color: skyblue;
+ }
+.about{
+        background-position:left ;
+        background-color: rgb(119, 113, 121);
+        font-size: 25px;
+        text-align: left;
+        font-weight: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 200px;
+    }
+    .about p{
+font-size: 20px;
+padding-top: 20px;
+padding-left: 10px;
+    }
+       .more{
+           background-color: #003366;
+           margin: 20px;
+           padding-right: 20px;
+           padding-left: 30px;
+           border-radius: 30px;
+           font-size: 26px;
+           color: #fff;
+       }
+.design {
+    background-position:center;
+    background-color: #fff;
+    font-size: 20px;
+   height: 500px;
+    padding-left: 10px;
+padding-top: 50px;
+}
+.design p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.design marquee{
+    padding-top: 20px; 
+
+}
+.design pre{
+    padding-top: 20px; 
+    padding-bottom: 5px;
+}
+
+   .footer{
+    width: 80%;
+    margin: 50px auto;
+    font-size: 14px;
+   }
+.contact-box{
+    background: #fff;
+    display: flex;
+    border-color: #000;
+}
+  .contact-left{
+      flex-basis: 60%;
+      padding: 40px 60px;
+  }
+  .contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #7c71bb;
+    color: #fff;
+}
+ .footer h1{
+     margin-bottom: 10px;
+ } 
+ .footer p{
+    margin-bottom: 40px;
+ }  
+    .forms input{
+        font-size: 20px;
+    width: 300px;
+    height: 30px ;
+    color: rgb(24, 9, 9);
+    background: #f8f1f1;
+    margin: 10px;
+    outline:#000;
+    border: 1px solid;
+    border-radius: 0%;
+    }
+    .forms button{
+        background: #1c00b5;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: #fff;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(28, 0, 183, 9.3);
+    }
+    .contact-left h3{
+       color: #1c00b5;
+        font-weight: 600;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .contact-right h3{
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    tr td:first-child{
+        padding-right: 20px;
+    }
+
+    tr td{
+        padding-top: 20px;
+    }

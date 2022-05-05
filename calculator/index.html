@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> CALCULATOR</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+<div class="navbar">
+    <span class="today"></span>
+<div class="icon">
+    <h2 class="logo"> <a href="/"><img src="images/image1.gif" width="70px" ></a> </h2>
+</div>
+<div class="menu">
+<ul>
+    <li><a href="#Home"><b> |Home </b></a></li>
+    <li><a href="#About"><b> |About</b></a></li>
+    <li><a href="#Design"><b> |Design </b></a></li>
+    <li><a href="#Contact"> <b>|Contact</b> </a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+    <div id="Home"></div>
+<div class="container" align="center">
+<h1>free online calculator</h1>
+
+
+
+<form name="forms">
+    <div class="calc">
+        <input type="text" id="answer" name="screen"><br>
+        <input type="button" value=" 7 " onclick="forms.screen.value+='7'">
+        <input type="button" value=" 8 " onclick="forms.screen.value+='8'">
+        <input type="button" value=" 9 " onclick="forms.screen.value+='9'">
+        <input type="button" value=" / " onclick="forms.screen.value+='/'">
+        <input type="button" class="btn-red" value=" AC " onclick="forms.screen.value=' '"> <br>
+   
+        <input type="button" value=" 4 " onclick="forms.screen.value+='4'">
+        <input type="button" value=" 5 " onclick="forms.screen.value+='5'">
+        <input type="button" value=" 6 " onclick="forms.screen.value+='6'">
+        <input type="button" value=" * " onclick="forms.screen.value+='*'">
+        <input type="button" value=" % " onclick="forms.screen.value+='%'"><br>
+
+        <input type="button" value=" 1 " onclick="forms.screen.value+='1'">
+        <input type="button" value=" 2 " onclick="forms.screen.value+='2'">
+        <input type="button" value=" 3 " onclick="forms.screen.value+='3'">
+        <input type="button" value=" + " onclick="forms.screen.value+='+'">
+        <input type="button" value=" - " onclick="forms.screen.value+='-'"><br>
+
+        <input type="button" value=" 0 " onclick="forms.screen.value+='0'">
+        <input type="button" value=" 00 " onclick="forms.screen.value+='00'">
+        <input type="button" value=" 000 " onclick="forms.screen.value+='000'">
+        <input type="button" value=" . " onclick="forms.screen.value+='.'">
+        <input type="button"  class="btn-blue"  value=" = " onclick="forms.screen.value=eval(forms.screen.value)">
+    </div>
+
+</form>
+<div id="About"></div>
+<div class="about">
+    <h2> about us </h2>
+    <p class="text_paragra">we would love to benefit from our website.</p>
+    <button CLASS="more" onclick="myFunction()"> More </button>
+    </div>
+
+<div id="Design"></div>
+<div class="design">
+<p> If you want to buy calculator see our products  </p>
+ <marquee><img src="/images/image2.jpg" height="200px" width="200px" > <img src="/images/image3.jpg" height="200px" width="200px" > <img src="/images/image4.jpg" height="200px" width="200px" ></marquee>
+<hr class="line" width="1000px" height="500px"  >
+<pre>  <img src="/images/image5.jpg" height="200px" width="200px">   <img src="/images/image6.jpg" height="200px" width="200px">  <img src="/images/image7.jpg" height="200px" width="200px">   </pre>
+</div>
+
+
+
+<div id="Contact"></div>
+<div class="footer">
+<h1> contact with us  </h1>
+<p>we would love to respond to your queries and help you succeed.<br> feel free to get in toutch with us. </p>
+<div class="contact-box">
+<div class="contact-left">
+    <h3> <b>sent your request</b></h3>
+
+    <form action="" method="">
+       
+        <div class="forms">
+        <label for="txt1"> <b> Name  :</b></label>
+        <input id="txt1" type="text" name="firstname" maxlength="30"
+        placeholder= "Your Name" required/><br>
+
+        <label for="num1"> <b> phone :</b></label>
+        <input id="num1" type="text" name="phone" maxlength="30"
+        placeholder= "phone" required/><br>
+        
+
+        <label for="email2"> <b> Email :</b></label>
+        <input id="email2" type="email" name="Email:" maxlength="20"
+        placeholder= "@Email.com" required/><br>
+
+        <label for="text2"> <b> subject :</b></label>
+        <input id="text2" type="text2" name="subject :" maxlength="50"
+        placeholder= "subject" required/><br>
+
+        <label for="text3"> <b> message :</b></label>
+        <input id="text3" type="text area" name="message:" maxlength="100"
+        placeholder= "write your message" required/><br>
+
+        <button type="submit"> Send</button>
+    </div>
+    
+        
+        </form>
+</div>
+
+<div class="contact-right">
+    <h3> Reach us</h3>
+    <table>
+        <tr>
+            <td> Email</td>
+            <td>contactus@example.com </td>
+        </tr>
+        <tr>
+            <td> phone</td>
+            <td>+1  058 543 8977 </td>
+        </tr>
+        <tr>
+            <td> address</td>
+            <td> #20, gharbia , 7th cross<br>
+                saeed layout<br>
+
+            </td>
+        </tr>
+    </table>
+   
+</div>
+</div>
+</div>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
